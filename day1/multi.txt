@@ -1,0 +1,7 @@
+<!-- ÅäÖÃÊý¾ÝÔ´ -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="url" value="jdbc:mysql://192.168.230.128:3306/test01?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"/>
+		<property name="username" value="root"/>
+		<property name="password" value="123456"/>
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+	</bean>
